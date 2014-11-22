@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# Customized Gems setup 
+gem 'mongoid', github: 'mongoid/mongoid'
+gem 'bson_ext'
+gem 'devise'
+# Customized Gems setup ends here
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
